@@ -2,12 +2,12 @@ Project 1: SAT & ACT Analysis
 
 ### Overview
 
-This is a project done for the Data Science Immersive 14 course done with General Assembly Singapore.
+This is a project done for the General Assembly Singapore Data Science Immersive 14 course.
 
-We were tasked to examine possible correlations that may exist between the state average subject scores and participation rates of the SAT and ACT tests. The new format of the SAT was just released in March 2016 and we are interested in finding out where the College Board (which administers the SAT) should dedicate their funding.
+We were tasked to examine possible correlations that may exist between the state average subject scores and participation rates of the SAT and ACT tests. The new format of the SAT was just released in March 2016 and we are interested in finding out where the College Board (which administers the SAT) should dedicate their funding. From our research, we were meant to recommend states which the College Board should look into increasing their participation rates. 
 
 Executive Summary:
-The four datasets that we worked with were from 2017 and 2018; they contained the state averages of participation and test scores for the ACT and SAT tests. The full list of columns are given in the data dictionary below. The distribution for ACT and SAT participation rates were noticeably skewed to either ends, further research showed that 23 out of the 50 states administer either one of the tests and students rarely sat for both. It was also observed that test scores of ACT and SAT were unsuitable for statistical inference as the tests were designed differently resulting in different formats and scoring scales. Student performance on either tests would have to be compared against similar states who administer the same tests. It was also problematic accounting for other possible factors to a state's participation to the ACT or SAT test, whether the test was administered free of charge in that state or accounting for student population sizes in the different states.
+The four datasets that we worked with were from 2017 and 2018; they contained the state averages of participation and test scores for the ACT and SAT tests. The full list of columns are given in the data dictionary below. The distribution for ACT and SAT participation rates were noticeably skewed to either ends, further research showed that 23 out of the 50 states administer either one of the tests and students rarely sat for both. It was also observed that test scores of ACT and SAT were unsuitable for statistical inference as the tests were designed differently resulting in different formats and scoring scales. Student performance on either tests would have to be compared against similar states who administer the same tests. It was also problematic accounting for other possible factors to a state's participation to the ACT or SAT test, whether the test was administered free of charge in that state or there were existing conditions such as mandatory participation in either test for that state.
 
 ---
 |Feature|Type|Dataset|Description|
