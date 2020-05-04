@@ -1,12 +1,15 @@
 # Project 2 - Ames Housing Data and Kaggle Challenge
 
 Problem Statement
+
 Predict housing prices in Aimes Iowa by identifying the most effective predictors from the given housing dataset.
 
 Executive Summary
+
 This project is broken into two notebooks, the first notebook looks into Exploratory Data Analysis, Data Cleaning and Exploratory visualisations.
 
 Business Recommendations
+
 We found that Overall Quality rating of the property is most influential when determining price, followed by the above ground living area and garage size.
 
 We found that Exterior quality had a bad rating, that affected the value of the home the most, then came the condition of the kitchen and basement.
