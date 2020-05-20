@@ -7,20 +7,6 @@ Furthermore, if you have a question as a system administrator or a network admin
 
 This projects aims to create an NLP machine learning model to be able to review posts and show which subreddit it would belong to and thus increase your probability of getting a helpful response to your issue.
 
-Table of Contents
-Data Cleaning
-Merging the two subreddits
-Exploratory Data Analysis
-Train/Test Split
-Stopwords
-Preprocessing
-CountVectorizer
-Naive Bayes
-Testing other models
-Conclusion and Recommendations
-
-*webscaping function is stored in separate jupyter notebook
-
 Challenges: The struggle is real with acronyms with these two IT centric subreddits, it may look like they are stop words - worthy but on further research found to represent specialised technologies that are understood within that subreddit community.
 
 Findings: The models that used TfidVectorizer returned features that were more meaningful words and we could see how they would be important in classifying which subreddits they would more likely belong to. Even if the Naive Bayes WordVectorizer model scored the best on unseen data, the most important features were not really actionable or insightful. Out of the three models, the feature importance extracted from Logistic Regression proved most useful in answering our business problem.
